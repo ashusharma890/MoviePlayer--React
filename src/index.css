@@ -3,7 +3,17 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #111; */
+}
+
+body[data-theme="dark"] {
   background-color: #111;
+  color: #fff;
+}
+
+body[data-theme="light"] {
+  background-color: #fff;
+  color: #111;
 }
 
 a {
@@ -86,4 +96,20 @@ a {
   .search-bar {
     width: 200px;
   }
+}
+
+.playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+.imgs {
+  width: 500px;
+  height: 500px;
 }
